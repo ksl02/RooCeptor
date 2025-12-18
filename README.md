@@ -1,4 +1,4 @@
-RooCeptor works by patching function prologues at runtime, redirecting execution to user-defined enter and leave callbacks. I wrote this back in early 2023 for my own security research. At the time, it was a personal prototype and wasn't intended for public release.
+RooCeptor works by patching function prologues at runtime, redirecting execution to user-defined enter and leave callbacks. I wrote this back in early 2023 for my own security research. At the time, it was a personal prototype and wasn't intended for public release. Named after a bernedoodle who goes by the nickname "Auggieroonie."
 
 One use-case I had for it was to encrypt static binaries to prevent sensitive functions from being easily reversed engineered using static analysis tools (i.e. IDA and Ghidra).
 The high level idea was as followed:
